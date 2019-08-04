@@ -10,6 +10,7 @@ body {
 }
 .container {
   text-align: center;
+  color: white;
 }
 header {
   width: 100%;
@@ -19,7 +20,7 @@ header img {
   padding-bottom: 10px;
 }
 nav {
-  color: white;
+  background-color: rgba(128, 128, 128, 0.685);
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -28,19 +29,40 @@ nav li {
   display: inline;
   text-transform: uppercase;
   margin: 10px 10px;
+  font-weight: 400;
 }
 nav li a {
   text-decoration: none;
   color: white;
 }
-main {
+/* main {
   background-color: red;
   width: 100%;
+} */
+.slogan p {
+  font-size: 36px;
+  font-weight: 900;
+  padding-top: 60px;
+  padding-bottom: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.services {
+  width: 300px;
+  padding: 30px 10px 30px 10px;
+  margin: auto;
+  /* display: flex; */
+}
+.services h1 {
+  text-transform: uppercase;
+}
+.services p {
+  padding: 10px 20px 25px 20px;
 }
 footer {
   background-color: rgba(62, 65, 57, 0.952);
   /* height: 40px; */
-  color: white;
+  /* color: white; */
   font-family: georgia, serif;
   font-size: 6px;
   width: 100%;
